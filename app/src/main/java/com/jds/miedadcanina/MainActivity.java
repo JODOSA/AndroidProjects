@@ -26,11 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
             String age = ageEdit.getText().toString();
-            int ageInt = Integer.parseInt(age);
-
-            int result = ageInt * 7;
-            String resultString = "Si fueras perro, tu edad sería " + result + " años";
-            resultText.setText(resultString);
+            if(!age.isEmpty()) {
+                int ageInt = Integer.parseInt(age);
+                int result = ageInt * 7;
+                String resultString = "Si fueras perro, tu edad sería " + result + " años";
+                resultText.setText(resultString);
+            }
         });
     }
 }

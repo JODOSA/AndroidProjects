@@ -20,7 +20,7 @@
         android:textSize="20sp"
         android:padding="16dp"
         android:textColor="@color/black"
-        android:text="How old are you?"
+        android:text="¿Qué edad tienes?"
         tools:ignore="HardcodedText" />
     
     <EditText
