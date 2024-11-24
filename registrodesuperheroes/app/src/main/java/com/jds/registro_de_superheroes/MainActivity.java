@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private void openDetailActivity(String superheroName, String alterEgo, String bio, float rating) {
         Superhero superhero = new Superhero(superheroName, alterEgo, bio, rating);
         Intent intent = new Intent(this, DetailActivity.class);
-        intent.putExtra(DetailActivity.SUPERHERO_KEY, superheroName);
+        intent.putExtra(DetailActivity.SUPERHERO_KEY, superhero);
         startActivity(intent);
     }
 }

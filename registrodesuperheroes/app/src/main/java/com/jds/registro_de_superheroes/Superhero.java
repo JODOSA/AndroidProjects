@@ -3,7 +3,7 @@ package com.jds.registro_de_superheroes;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-class Superhero implements Parcelable {
+public class Superhero implements Parcelable {
     private String name;
     private String alterEgo;
     private String bio;
@@ -57,7 +57,7 @@ class Superhero implements Parcelable {
     public String getBio(){
         return bio;
     }
-    public float getpower(){
+    public float getPower(){
         return power;
     }
 }
