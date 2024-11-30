@@ -1,5 +1,6 @@
 package com.jds.registro_de_superheroes;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -14,6 +15,7 @@ import com.jds.registro_de_superheroes.databinding.ActivityDetailBinding;
 public class DetailActivity extends AppCompatActivity {
 
     public static final String SUPERHERO_KEY = "superhero";
+    public static final String BITMAP_KEY = "bitmap";
 
 
     @Override
@@ -35,6 +37,11 @@ public class DetailActivity extends AppCompatActivity {
             finish();
             return;
         }
+        Bitmap bitmap = extras.getParcelable(BITMAP_KEY);
         binding.setSuperhero(superhero);
+
+        if(bitmap != null){
+            binding.imageView5.setImageBitmap(bitmap);
+        }
     }
 }
