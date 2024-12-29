@@ -1,0 +1,23 @@
+<resources>
+    <!-- CREDENCIALES DE LA APP -->
+    <string name="app_name">LoginApp</string>
+    <string name="developer">Joaquín Dominguez Santana</string>
+    <string name="desarrollo">Desarrollado por:</string>
+    <string name="version">Versión 1.0.0</string>
+
+    <!-- LOGIN -->
+    <string name="titulo_login">Inicie Sesión</string>
+    <string name="lbl_usuario">Usuario</string>
+    <string name="txt_usuario">Inserte Usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="txt_password">Inserte Contraseña</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="lbl_crear_cuenta">¿No tienes cuenta?, registrate</string>
+
+    <!-- REEGISTRO -->
+
+    <!-- ELECCION -->
+
+    <!-- MAS DATOS -->
+
+</resources>
